@@ -1,0 +1,125 @@
+:root{
+    --mainBorders:400px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(#d5bdaf, #edede9);
+    height: 100vh;
+   background-size: contain;
+}
+
+.mainDiv{
+   
+    width: var(--mainBorders);
+    height: 497px;
+    background-color: #f8f9fa;
+    margin:50px;
+}
+
+.title{
+    width: var(--mainBorders);
+    height: 20px;
+    text-align: center;
+    border: 1px solid;   
+    border-radius: 8px 8px 0 0 ;
+}
+
+.pTitle{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainBorder{
+    width: var(--mainBorders);
+    height: 473px;
+    border: 1px solid;
+    border-radius: 0 0 8px 8px;
+    }   
+
+ .viewResult{
+    width: var(--mainBorders);
+    height: 60px;
+    text-align: right;
+    border-bottom: 1px solid;
+} 
+
+#result{
+    font-size: 45px;
+    height:75px;
+    width: 396px;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button{
+    position: relative;
+    width: 100px;
+    height: 103px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.button.dot{
+    width: 50px;
+}
+
+.button.delete{
+    width: 100px;
+    height: 50px;
+}
+
+.button.equal{
+    width: 50px;
+}
+
+.button.deleteAll{
+    background-image: url("../img/bin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.1px solid ;
+    height: 53px;
+}
+
+
+.deleteAll:hover{
+    background-image: url("../img/binClose.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.button:hover{
+    background-color:#839abe;
+    border-radius: 5px;
+}
+
+.row{
+    position: relative;
+    display: flex ;
+    flex-direction: row;
+   
+}
+
+.column{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+

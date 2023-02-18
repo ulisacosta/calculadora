@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="mainDiv">
+    <div class="title">
+       <p class="pTitle"> CALCULADORA </p>
+    </div>
+
+    <div class="mainBorder">
+        
+        <div class="viewResult">
+            <p id="result" >0</p>
+        </div>
+
+        <div class="row">
+            <button  id="sum" class="button operacion" >+</button>
+ 
+            <button value="1" class="one button" id="buttonOne" >1</button>
+ 
+            <button value="2" class="two button" id="buttonTwo">2</button>
+        
+            <button value="3" class="three button" id="buttonThree">3</button>
+         
+        </div>
+
+        <div class="row">
+            <button id="subtraction" class="button operacion">-</button>
+
+            <button value="4" class="button four" id="buttonFour">4</button>
+
+            <button value="5" class="button five" id="buttonFive">5</button>
+
+            <button value="6" class="button six" id="buttonSix">6</button>
+        </div>
+
+        <div class="row">
+            <button id="multiply" class="button operacion">*</button>
+
+            <button value="7" class="button seven" id="buttonSeven">7</button>
+           
+            <button value="8" class="button eight" id="buttonEight">8</button>
+        
+            <button value="9" class="button nine" id="buttonNine">9</button>
+        
+        </div>
+        
+        <div class="row">
+            <button  id="division" class="button division operacion">/</button>
+        
+            <button value="0" class="button zero" id="buttonZero">0</button>            
+         
+            <div class="column">
+            <button value="delete" class="button delete" id="buttonDelete"><img src="img/delete.png" alt="borrar" height="40px" width="40px"></button>
+            <button value="deleteAll" class="button deleteAll" id="buttonDeleteAll"><!-- <img src="img/bin.png" alt="borrarTodo" height="" width="" class="deleteImg"> --></button>
+            </div>
+            
+            <button value="." class="button dot" id="buttonDot">.</button>
+
+           
+           <button value="equal" class="button equal" id="buttonEqual">=</button>
+        </div>
+        
+    </div>
+
+</div>
+</body>
+<script src="index.js"></script>
+</html>
